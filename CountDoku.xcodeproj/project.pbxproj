@@ -29,9 +29,22 @@
 		D5B9D4C42D35116900C03D0D /* CountDokuUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CountDokuUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		B2D9E2592DD1E77D00313A1F /* Exceptions for "CountDoku" folder in "CountDoku" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = D5B9D4A92D35116700C03D0D /* CountDoku */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
 /* Begin PBXFileSystemSynchronizedRootGroup section */
 		D5B9D4AC2D35116700C03D0D /* CountDoku */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				B2D9E2592DD1E77D00313A1F /* Exceptions for "CountDoku" folder in "CountDoku" target */,
+			);
 			path = CountDoku;
 			sourceTree = "<group>";
 		};
